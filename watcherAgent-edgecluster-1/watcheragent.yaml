@@ -8,7 +8,7 @@ metadata:
 spec:
   resyncTimestamp: "2023-04-05T16:54:10Z"
   edgeWatcher:
-    addr: 10.244.04.49
+    addr: 10.244.0.49
     port: "3000"
   watchRequests:
   - group: nfdeploy.nephio.org
