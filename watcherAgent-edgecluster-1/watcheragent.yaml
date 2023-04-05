@@ -1,0 +1,17 @@
+apiVersion: monitor.nephio.org/v1alpha1
+kind: WatcherAgent
+metadata:
+  name: watcheragent-upf-smf
+  namespace: nephio-system
+  annotations:
+    cloud.nephio.org/cluster: edgecluster-1
+spec:
+  resyncTimestamp: "2023-04-05T23:11:06Z"
+  edgeWatcher:
+    addr: 10.244.0.60
+    port: "3000"
+  watchRequests:
+  - group: nfdeploy.nephio.org
+    version: v1alpha1
+    kind: UpfDeploy
+    namespace: nephio-system
