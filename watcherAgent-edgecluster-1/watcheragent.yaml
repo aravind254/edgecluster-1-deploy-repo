@@ -6,9 +6,9 @@ metadata:
   annotations:
     cloud.nephio.org/cluster: edgecluster-1
 spec:
-  resyncTimestamp: "2023-04-07T19:38:57Z"
+  resyncTimestamp: "2023-04-10T16:20:26Z"
   edgeWatcher:
-    addr: 10.244.0.64
+    addr: 10.244.0.65
     port: "3000"
   watchRequests:
   - group: nfdeploy.nephio.org
